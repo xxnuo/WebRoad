@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+    	<head>
+    		<meta charset="utf-8" />
+    		<title></title>
+    		<script src="js/jquery-3.5.1.js" type="text/javascript" charset="utf-8"></script>
+    	</head>
+    	<body>
+    		<ul id="parent-list" style="background-color: #bfa;">
+    			<li>
+    				<p>我是p元素</p>
+    			</li>
+    			<li><a href="javascript:;" class="link">超链接一</a></li>
+    			<li><a href="javascript:;" class="link">超链接二</a></li>
+    			<li><a href="javascript:;" class="link">超链接三</a></li>
+    		</ul>
+    		<script type="text/javascript">
+    			$("a").css({
+    				"width": 100,
+    				"height": 100,
+    				"background-color": "pink"
+    			});
+				alert($("a").css("width"));
+    		</script>
+    	</body>
