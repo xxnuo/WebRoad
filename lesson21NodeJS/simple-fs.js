@@ -2,6 +2,7 @@
 
 const process = require('process');
 const path = require('path');
+const fs = require('fs');
 
 console.log(process.version);
 console.log(path.resolve('../'));
@@ -47,3 +48,30 @@ promise1.then(res1 => {
 	console.log('-----------');
 });
 
+//async ... await 封装fs.readFile()
+async function ReadList(){
+	var res1 = await fsRead('file1.txt');
+	var res2 = await fsRead('file2.txt');
+	var res3 = await fsRead('file3.txt');
+	console.log(res1,res2,res3);
+	console.log('-----------');
+};
+ReadList();
+
+//buffer
+const str = '达瓦哇打我';
+let buffer = Buffer.from(str);
+console.log(buffer);
+console.log(buffer.toString());
+console.log('-----------');
+
+// 读取目录
+fs.readdir("./", function(err,files) {
+	if(err) {
+		return console.error(err);
+	}
+	files.forEach( function (file) {
+		console.log(file);
+	});
+});
+console.log('-----------');
