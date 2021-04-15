@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="app">
+			<p>{{msg}}</p>
+			<input type="button" name="" id="" value="开始" @click="startMethod"/>
+			<input type="button" name="" id="" value="停止" @click="stopMethod"/>
+		</div>
+		<script type="text/javascript">
+			var vm = new Vue({
+				el: '#app',
+				data: {
+					msg: '新年快乐兄弟们',
+					intervalId: null
+				},
+				methods: {
+					startMethod: function(){
+						if (this.intervalId != null) return;
+						
+						this.intervalId = setInterval(() => {
+							var start = this.msg.substring(0,1);
+							var end = this.msg.substring(1);
+							this.msg = end + start;
+							console.log(this.msg);
+						},400);
+					},
+					
+					stopMethod: function(){
+						clearInterval(this.intervalId);
+						this.intervalId = null;
+					}
+				}
+			})
+		</script>
+	</body>
+</html>
