@@ -1,5 +1,7 @@
-var request = require('request');
-
-request.get('https://cnodejs.org/api/v1/topics?page=1&limit=10', (err,response,body) => {
-	console.log(body);
-})
+var http = require('http');
+http.createServer(function(request, response) {
+	response.writeHead(200, {
+		'Content-Type': 'text/plain'
+	});
+	response.end('Hello World\n');
+}).listen(8124);
