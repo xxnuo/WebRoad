@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="calc">
+			<input class="output" id="output" value="0" onblur="fn()"/>
+			<div class="numbers" >
+				<input type="button" name="" id="" value="7" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="8" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="9" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="4" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="5" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="6" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="1" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="2" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="3" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="0" onclick="numberClick(value)"/>
+				<input type="button" name="" id="" value="AC" onclick="cleanClick()"/>
+				<input type="button" name="" id="" value="=" onclick="equalClick()"/>
+			</div>
+			<div class="operators">
+				<input type="button" name="" id="" value="*" onclick="operatorClick(value)"/>
+				<input type="button" name="" id="" value="-" onclick="operatorClick(value)"/>
+				<input type="button" name="" id="" value="+" onclick="operatorClick(value)"/>
+				<input type="button" name="" id="" value="/" onclick="operatorClick(value)"/>
+			</div>
+
+		</div>
+	</body>
+</html>
