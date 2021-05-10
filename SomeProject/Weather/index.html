@@ -2,9 +2,36 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Weather</title>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		
+		<ul class="layui-nav" lay-filter="nava">
+			<li class="layui-nav-item"><a href="">最新活动</a></li>
+			<li class="layui-nav-item layui-this"><a href="">产品</a></li>
+			<li class="layui-nav-item"><a href="">大数据</a></li>
+			<li class="layui-nav-item">
+				<a href="javascript:;">解决方案</a>
+				<dl class="layui-nav-child">
+					<!-- 二级菜单 -->
+					<dd><a href="">移动模块</a></dd>
+					<dd><a href="">后台模版</a></dd>
+					<dd><a href="">电商平台</a></dd>
+				</dl>
+			</li>
+			<li class="layui-nav-item"><a href="">社区</a></li>
+		</ul>
+
+		<script>
+			layui.use(['layer', 'form'], function(){
+			  var layer = layui.layer
+			  ,form = layui.form;
+			  
+			  layer.msg('Hello World');
+			});
+		</script>
 	</body>
 </html>
