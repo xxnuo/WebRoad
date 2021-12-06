@@ -12,11 +12,16 @@
 		<input name="quetype" type="radio" value="gjaqzsjsxxzl_duoxuan" />多选
 		<input name="quetype" type="radio" value="gjaqzsjsxxzl_panduan" />判断
 		<br/>
-		<input type="text" name="" id="keywords" value="增强全党全国人民国家安全意识" />
+		<input type="text" style="width: 100%;" id="keywords" value="增强全党全国人民国家安全意识" />
+		<input type="button" value="清空" onclick="clearInput()">
 		<input type="submit" name="" id="" value="搜索题目" onclick="searchQue()"/>
 		<p id="show"></p>
-		<script src="./jquery-3.4.1.min.js"></script>
+		<script src="./js/jquery.js"></script>
 		<script type="text/javascript">
+			//clear the input 
+			function clearInput(){
+				$("#keywords").val("");
+			}
 			 
 			function format(obj){
 				//format json object to str
