@@ -1,7 +1,0 @@
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\bin\Debug\一个练习.exe.config
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\bin\Debug\一个练习.exe
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\bin\Debug\一个练习.pdb
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\obj\Debug\一个练习.csproj.AssemblyReference.cache
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\obj\Debug\一个练习.csproj.CoreCompileInputs.cache
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\obj\Debug\一个练习.exe
-D:\tizen\Documents\GitHub\WebRoad\CSAPP\beginner\一个练习\obj\Debug\一个练习.pdb

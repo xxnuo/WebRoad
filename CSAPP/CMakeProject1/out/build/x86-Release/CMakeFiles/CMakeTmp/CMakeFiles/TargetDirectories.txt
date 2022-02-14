@@ -1,3 +1,0 @@
-D:/tizen/Documents/GitHub/WebRoad/CSAPP/CMakeProject1/out/build/x86-Release/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5c021.dir
-D:/tizen/Documents/GitHub/WebRoad/CSAPP/CMakeProject1/out/build/x86-Release/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-D:/tizen/Documents/GitHub/WebRoad/CSAPP/CMakeProject1/out/build/x86-Release/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
